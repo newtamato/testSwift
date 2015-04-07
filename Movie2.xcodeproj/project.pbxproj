@@ -13,6 +13,11 @@
 		8DEDAC3B1AD18DE100F783A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DEDAC3A1AD18DE100F783A6 /* Images.xcassets */; };
 		8DEDAC3E1AD18DE100F783A6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DEDAC3C1AD18DE100F783A6 /* LaunchScreen.xib */; };
 		8DEDAC4A1AD18DE100F783A6 /* Movie2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEDAC491AD18DE100F783A6 /* Movie2Tests.swift */; };
+		8DEDAC581AD2835C00F783A6 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEDAC571AD2835C00F783A6 /* SwiftyJSON.swift */; };
+		8DEDAC5A1AD291A100F783A6 /* HorizontalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEDAC591AD291A100F783A6 /* HorizontalTableViewController.swift */; };
+		8DEDAC5C1AD2AC2E00F783A6 /* AvatarItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEDAC5B1AD2AC2E00F783A6 /* AvatarItemTableViewCell.swift */; };
+		8DEDAE4F1AD2D5A300F783A6 /* AvatarProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEDAE4E1AD2D5A300F783A6 /* AvatarProfileController.swift */; };
+		8DEDAE511AD2E26100F783A6 /* MovieItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEDAE501AD2E26100F783A6 /* MovieItemTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,12 @@
 		8DEDAC431AD18DE100F783A6 /* Movie2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Movie2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DEDAC481AD18DE100F783A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DEDAC491AD18DE100F783A6 /* Movie2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie2Tests.swift; sourceTree = "<group>"; };
+		8DEDAC561AD2835C00F783A6 /* SwiftyJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyJSON.h; sourceTree = "<group>"; };
+		8DEDAC571AD2835C00F783A6 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		8DEDAC591AD291A100F783A6 /* HorizontalTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalTableViewController.swift; sourceTree = "<group>"; };
+		8DEDAC5B1AD2AC2E00F783A6 /* AvatarItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarItemTableViewCell.swift; sourceTree = "<group>"; };
+		8DEDAE4E1AD2D5A300F783A6 /* AvatarProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarProfileController.swift; sourceTree = "<group>"; };
+		8DEDAE501AD2E26100F783A6 /* MovieItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieItemTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +88,13 @@
 		8DEDAC301AD18DE100F783A6 /* Movie2 */ = {
 			isa = PBXGroup;
 			children = (
+				8DEDAC551AD2835C00F783A6 /* json */,
 				8DEDAC331AD18DE100F783A6 /* AppDelegate.swift */,
 				8DEDAC351AD18DE100F783A6 /* ViewController.swift */,
+				8DEDAC591AD291A100F783A6 /* HorizontalTableViewController.swift */,
+				8DEDAC5B1AD2AC2E00F783A6 /* AvatarItemTableViewCell.swift */,
+				8DEDAE4E1AD2D5A300F783A6 /* AvatarProfileController.swift */,
+				8DEDAE501AD2E26100F783A6 /* MovieItemTableViewCell.swift */,
 				8DEDAC371AD18DE100F783A6 /* Main.storyboard */,
 				8DEDAC3A1AD18DE100F783A6 /* Images.xcassets */,
 				8DEDAC3C1AD18DE100F783A6 /* LaunchScreen.xib */,
@@ -110,6 +126,15 @@
 				8DEDAC481AD18DE100F783A6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DEDAC551AD2835C00F783A6 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				8DEDAC561AD2835C00F783A6 /* SwiftyJSON.h */,
+				8DEDAC571AD2835C00F783A6 /* SwiftyJSON.swift */,
+			);
+			path = json;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +237,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DEDAE511AD2E26100F783A6 /* MovieItemTableViewCell.swift in Sources */,
+				8DEDAC581AD2835C00F783A6 /* SwiftyJSON.swift in Sources */,
 				8DEDAC361AD18DE100F783A6 /* ViewController.swift in Sources */,
 				8DEDAC341AD18DE100F783A6 /* AppDelegate.swift in Sources */,
+				8DEDAC5C1AD2AC2E00F783A6 /* AvatarItemTableViewCell.swift in Sources */,
+				8DEDAE4F1AD2D5A300F783A6 /* AvatarProfileController.swift in Sources */,
+				8DEDAC5A1AD291A100F783A6 /* HorizontalTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +437,7 @@
 				8DEDAC4F1AD18DE100F783A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DEDAC501AD18DE100F783A6 /* Build configuration list for PBXNativeTarget "Movie2Tests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +446,7 @@
 				8DEDAC521AD18DE100F783A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
